@@ -1,0 +1,13 @@
+const ERROR_KPAY = {};
+
+ERROR_KPAY["HTTP_CONNECT"] = 1000;
+ERROR_KPAY["PAGE_CHANGE"] = 1005;
+
+enum errorCls {
+
+    HTTP_CONNECT,
+    HTTP_NOT_FOUND
+}
+
+
+export {ERROR_KPAY};
